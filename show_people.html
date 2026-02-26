@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>璀璨寶石 Marvel Web 版手牌</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      canvas {
+        display: block;
+        background: #f0f0f0;
+      }
+
+      .canvas-wrapper {
+        width: 1600px;
+        overflow: auto; /* 關鍵在這 */
+        border: 1px solid #ccc;
+      }
+    </style>
+
+    <link rel="icon" href="/WebMarvel/assets/favicon-5LnBGdtu.png" type="image/png" />
+    <script type="module" crossorigin src="/WebMarvel/assets/show_people-C5az-WYm.js"></script>
+    <link rel="modulepreload" crossorigin href="/WebMarvel/assets/card_open-DIcfzGlm.js">
+  </head>
+
+  <body>
+    <div class="canvas-wrapper">
+      <canvas id="canvas" width="16000" height="800"></canvas>
+    </div>
+
+  </body>
+</html>
